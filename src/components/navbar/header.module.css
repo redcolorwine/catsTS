@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 60px;
+    color: white;
+    background-color: rgb(33, 150, 243);
+    font-size: 14pt;
+}
+
+.header nav li {
+    list-style: none;
+}
+
+.header nav li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+.header nav li a:hover {
+    color: rgb(255, 195, 4);
+}

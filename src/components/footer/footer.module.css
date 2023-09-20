@@ -1,0 +1,65 @@
+.footer {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: rgb(77, 196, 249);
+    color: rgb(255, 195, 4);
+    font-family: consolas;
+    font-weight: 900;
+    flex: 0 0 auto;
+}
+
+.footer p {
+    font-size: 12pt;
+}
+
+.logos {
+    margin-right: 100px;
+}
+
+.logos img {
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+    transition: 0.5s;
+}
+
+.logos img:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+.lastBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.firstBlock {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-bottom: 5px;
+    /* margin-bottom: 25px; */
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.firstBlock li {
+    list-style: none;
+}
+
+.firstBlock h4 {
+    color: rgb(255, 195, 4);
+}
+
+.firstBlock li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.firstBlock li a:hover {
+    color: rgb(252, 85, 32);
+}

@@ -1,0 +1,24 @@
+.random {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.random button {
+    font-family: 'Century Gothic';
+    font-weight: 900;
+    font-size: 12pt;
+    background-color: rgb(77, 196, 249);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.random button:hover{
+    color: rgb(255, 195, 4);
+}

@@ -1,0 +1,57 @@
+
+.catItem {
+    width: 400px;
+    min-height: 400px;
+    text-align: justify;
+
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.catItem img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+
+.catItem h4 {
+    color: rgb(33, 150, 243);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aboutCat {
+    margin: 0;
+    background-color: rgb(77, 196, 249);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.tags {
+    color: rgb(255, 195, 4);
+    font-weight: 900;
+    text-align: left;
+}
+
+.tags span {
+    color: rgb(235, 234, 234);
+}
+
+.datePic {
+    color: white;
+    font-size: 10pt;
+    margin-top: 5px;
+}
