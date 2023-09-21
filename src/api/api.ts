@@ -26,5 +26,10 @@ export const todoAPI = {
         return axios.get<CatItemType[]>(`https://api.thecatapi.com/v1/images/search?api_key=${API_KEY}&breed_ids=${breed}&limit=6`).then(response => {
             return response;
         })
+    },
+    getCatByCategories(categoryId: string) {
+        return axios.get<CatItemType[]>(`https://api.thecatapi.com/v1/images/search?categories=2&limit=6&api_key=${API_KEY}`).then(response => {
+            return response;
+        })
     }
 }

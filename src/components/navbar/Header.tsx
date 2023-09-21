@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <nav>
         <li><a href="/">Home</a></li>
         <li><a href="/breeds">Breeds</a></li>
-        <li><a href="#">Categories</a></li>
+        <li><a href="/categories">Categories</a></li>
         <li><a href="/random">RandomCat</a></li>
       </nav>
     </div>
