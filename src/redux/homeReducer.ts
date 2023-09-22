@@ -7,13 +7,13 @@ const IS_LOADING = 'IS_LOADING';
 const GET_RANDOM_CAT = 'GET_RANDOM_CAT';
 
 type HomeStateType = {
-    cats: CatItemType[] | null,
+    cats: CatItemType[] | [],
     isLoading: boolean,
     randomCat: CatItemType[] | null,
 }
 
 let initialState: HomeStateType = {
-    cats: null,
+    cats: [],
     isLoading: true,
     randomCat: null,
 }
@@ -38,7 +38,7 @@ const homeReducer = (state = initialState, action: ActionTypes): HomeStateType =
         case GET_CATS: {
             return {
                 ...state,
-                cats: action.cats
+                cats: [...state.cats,...action.cats]
             }
         }
         case IS_LOADING: {
